@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-repeat: no-repeat center center/cover;
+    background-image: url("images/background.jpg");
+    font-family: arial;
+
+
+}
+
+header {
+    opacity: 0.8;
+    margin: 10px 20px;
+
+}
+
+.logo {
+    width: 100px;
+    padding: 0;
+    margin-right: auto;
+}
+
+.container {
+    list-style: none;
+    display: flex;
+    background-color: rgb(185, 185, 185);
+    position: sticky;
+    top: 0px;
+}
+
+.items {
+    margin-right: 30px;
+    margin-top: 35px;
+}
+
+.items a {
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+
+}
+
+.items a:hover {
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 0 5px;
+    transition-duration: 0.5s;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(images/HOME.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 17rem;
+    padding-bottom: 10rem;
+    opacity: 0.8;
+    height: 500px;
+}
+
+.home .content {
+    text-align: center;
+    width: 60rem;
+    color: black;
+
+}
+
+.home .content h3 {
+    color: var(--black);
+    font-size: 3rem;
+    color: black;
+}
+
+.home .content h3 span {
+    color: var(--orange);
+
+}
+
+.home .content p {
+    font-size: 1.7rem;
+    padding: 1rem 0;
+    line-height: 1.8;
+    color: black;
+}
+
+.home .content .btn {
+    padding: 10px 30px;
+    color: white;
+    border: 3px solid black;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.home .content .btn:hover {
+    background-color: black;
+    border-color: white;
+    cursor: pointer;
+}
+
+.shop {
+    opacity: 0.9;
+}
+
+.shop .shop-list {
+    padding: 20px 40px;
+    background-color: #eee;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.list {
+
+    padding: 20px 40px;
+}
+
+.shop .shop-list>div {
+    margin-top: 4px;
+    flex-basis: 15%;
+    padding: 20px 40px;
+    border:
+        3px solid black;
+    background-color: rgb(255, 255, 255);
+}
+
+div>.buy {
+    border: 2px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: black;
+    border-radius: 5px;
+    margin-top: 3px;
+    cursor: pointer;
+    margin-top: auto;
+}
+
+div>.buy:hover {
+    color: white;
+    background-color: black;
+    transition: 0.5s;
+}
+
+.shop-list div img {
+    width: 200px;
+    height: 200px;
+}
+
+section {
+    padding: 20px 40px;
+    margin: 10px 20px;
+}
+
+.title-About {
+    padding-top: 10px;
+    width: 100%;
+    height: 50px;
+    font-weight: bold;
+    font-size: 1.7rem;
+    background-color: gray;
+    opacity: 0.9
+}
+
+section .about-about {
+    font-family: serif;
+    padding: 20px 40px;
+    font-size: 3rem;
+    font-weight: bold;
+    background-color: rgb(169, 168, 168);
+    opacity: 0.9;
+}
+
+section .About-description {
+    font-family: serif;
+    padding: 20px 40px;
+    font-size: large;
+    background-color: rgb(169, 168, 168);
+    opacity: 0.9;
+    font-style: arial;
+}
+
+
+.contacts {
+    padding: 20px 40px;
+    margin: 10px 20px;
+    color: black;
+    height:300px;
+    font-family: bold;
+    
+}
+.contacts .contacts-title{
+    margin-bottom: 20px;
+    background-color: #eee;
+}
+.contacts .contact-list{
+    padding: 10px;
+    background-color: #eee;
+}
+.contact-list a{
+    color: black;
+    padding: 5px;
+    margin:10px;
+}
+a .btn-btn{
+    margin:3px;
+    padding:2px 4px;
+    border-radius: 5px;
+    background: linear-gradient( 45deg ,gray, white);
+}
+a .btn-btn:hover{
+    background: linear-gradient(45deg, white ,gray);
+    cursor: pointer;
+}
+.Registration-form{
+    opacity: 0.9;
+    height:450px;
+    margin-bottom:50px;
+    
+}
+.Registration{
+    background: linear-gradient(45deg, gray, white);
+    height: 450px;
+    border-radius: 5px;
+    
+}
+.Registration .registration-title{
+    text-align: center;
+    padding:5px;
+    font-family: bold;
+    border-radius: 5px;
+    
+}
+.register{
+    text-align: center;
+    margin: 10px;
+    padding:30px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.register input{
+    text-align: center;
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+
+
+}
+.register .submit{
+    width: 250px;
+    height:30px;
+    margin-top:10px;
+    border-radius: 5px;
+    font-family: bold;
+    font-weight: bold;
+    font-size: 20px;
+}
+.back{
+margin-top:30px;
+padding: 30px;
+color: black;
+border:1 solid black;
+font-weight: bold;
+text-decoration:underline
+}
+.register .submit:hover{
+background: linear-gradient(45deg,gray, white)
+}
+.back:hover{
+color:gray;
+}
+
+
